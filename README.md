@@ -3,6 +3,8 @@
 ## Introduction
 In this project we created a NFT marketplace based on ethereum tokens. The basic purpose of this project was to create a portal for buying and selling of NFTs and make use of smart contracts developed using solidity.
 
+![lx8avrmuwqswx9roub2g](https://user-images.githubusercontent.com/60193296/175042168-630f38c2-ba63-47b6-8f1b-ed4da65923b5.jpg)
+
 ## Technologies Used
 - Solidity development environment : HardHat
 HardHat provides us with a local environment for developing, deploying and debugging the smart contract using local machine. HardHat is local Ethereum network designed for development.
@@ -11,12 +13,21 @@ It is a suite of high availability APIs and Developer Tools provide quick, relia
 - Web application framework : Next.js
 Next.js is fullstack framework based on the react.js to create UI and backend logic for web applications.
 - Ethereum Web Client Library : Ethers.js 
+
 The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem
 - Wallet Software: Metamask
 Available as a browser extension and as a mobile app, MetaMask equips you with a key vault, secure login, token wallet, and token exchange—everything you need to manage your digital assets.
 
 ## Architecture
 ![Blockchain Project drawio](https://user-images.githubusercontent.com/60193296/175040937-58108e15-75ab-4e9d-ba80-9e8177218184.png)
+
+## Working Of Project
+- When a user puts an NFT for sale, the ownership of the item will be transferred from the creator to the marketplace contract.
+ 
+- When a user purchases an NFT, the purchase price will be transferred from the buyer to the seller and the item will be transferred from the marketplace to the buyer.
+ 
+- The marketplace owner will be able to set a listing fee. This fee will be taken from the seller and transferred to the contract owner upon completion of any sale, enabling the owner of the marketplace to earn recurring revenue from any sale transacted in the marketplace.
+
 
 ## Project Pre-requesite
 1. Metamask Chrome Extension
