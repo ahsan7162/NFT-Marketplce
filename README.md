@@ -1,4 +1,21 @@
-# BlockChain_Project
+# NFT Marketplace
+
+## Introduction
+In this project we created a NFT marketplace based on ethereum tokens. The basic purpose of this project was to create a portal for buying and selling of NFTs and make use of smart contracts developed using solidity.
+
+## Technologies Used
+- Solidity development environment : HardHat
+HardHat provides us with a local environment for developing, deploying and debugging the smart contract using local machine. HardHat is local Ethereum network designed for development.
+- Web3 API : Infura Network
+It is a suite of high availability APIs and Developer Tools provide quick, reliable access to the Ethereum and IPFS networks
+- Web application framework : Next.js
+Next.js is fullstack framework based on the react.js to create UI and backend logic for web applications.
+- Ethereum Web Client Library : Ethers.js 
+The ethers.js library aims to be a complete and compact library for interacting with the Ethereum Blockchain and its ecosystem
+- Wallet Software: Metamask
+Available as a browser extension and as a mobile app, MetaMask equips you with a key vault, secure login, token wallet, and token exchange—everything you need to manage your digital assets.
+
+
 
 ## Project Pre-requesite
 1. Metamask Chrome Extension
