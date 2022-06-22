@@ -15,10 +15,12 @@ The ethers.js library aims to be a complete and compact library for interacting 
 - Wallet Software: Metamask
 Available as a browser extension and as a mobile app, MetaMask equips you with a key vault, secure login, token wallet, and token exchange—everything you need to manage your digital assets.
 
-
+## Architecture
+![Blockchain Project drawio](https://user-images.githubusercontent.com/60193296/175040937-58108e15-75ab-4e9d-ba80-9e8177218184.png)
 
 ## Project Pre-requesite
 1. Metamask Chrome Extension
+
 
 ## Clone the Project
 
